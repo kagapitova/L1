@@ -18,13 +18,11 @@ function customSort (arr) {
 		return (b.age < a.age) - (a.age < b.age);
 	})
 	//далее сортируем по алфавиту, такое решение работает, даже если много одинаковых значений
-	const sortedByName = sortedByAge.sort((a, b) => {
+	return sortedByAge.sort((a, b) => {
 		if (a.age === b.age) {
 			return (b.name < a.name) - (a.name < b.name)
 		}
 	})
-	
-	return sortedByName;
 }
 
 console.log(customSort(data))

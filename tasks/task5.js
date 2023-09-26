@@ -1,4 +1,6 @@
 const data = '[{"test": 1}, {"test": 2}, {"test": 3, "inside": {"test": 4}}, {"test": 5}]'
+const data1 = '[{"test": 1}]'
+const data2 = '[]'
 
 //конвертируем JSON в связный список путем прохода циклом по каждому объекту
 function convertJSONToLinkList(jsonObj) {
@@ -31,3 +33,5 @@ function printList(list) {
 }
 
 printList(convertJSONToLinkList(data));
+printList(convertJSONToLinkList(data1));
+printList(convertJSONToLinkList(data2));

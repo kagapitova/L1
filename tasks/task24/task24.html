@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Таблица</title>
+</head>
+<body>
+<h1>Сортировка таблицы по клику на параметр ⬆️⬇️</h1>
+<table id="main__table">
+    <thead>
+    <tr>
+        <th onclick="sortingByParametr(0)">First Name</th>
+        <th onclick="sortingByParametr(1)">Last Name</th>
+        <th onclick="sortingByParametr(2)">Telephone</th>
+        <th onclick="sortingByParametr(3)">Address</th>
+        <th onclick="sortingByParametr(4)">City</th>
+        <th onclick="sortingByParametr(5)">State</th>
+        <th onclick="sortingByParametr(6)">ZIP</th>
+    </tr>
+    </thead>
+    <tbody id="table">
+    </tbody>
+</table>
+<div class="pagination__container"></div>
+<button class="reload-data-button">Сбросить фильтры</button>
+<script src="task24.js"></script>
+</body>
+
+</html>

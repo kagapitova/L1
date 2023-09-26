@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #6725A8;
+}
+
+#suggestions {
+    width: 40%;
+    list-style: none;
+    margin: 110px;
+    padding: 0;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#suggestions li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#suggestions li:hover {
+    background-color: #f2f2f2;
+}
+
+#addressInput {
+    width: 40%;
+}

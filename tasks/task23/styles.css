@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* Стиль кнопки "Отправить" */
+input[type=submit] {
+    background-color: #6725A8;
+    color: white;
+}
+
+/* Стиль контейнера для входных данных */
+.container {
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.3);
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+/* Окно сообщения отображается, когда пользователь нажимает на поле пароля */
+#message {
+    display:none;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.3);
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* Добавить зеленый цвет текста и галочка, когда требования верны */
+.valid {
+    color: green;
+}
+
+.normal {
+    color: yellow;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✅";
+}
+
+/* Добавить красный цвет текста и собой "x" и значок, когда требования не правы */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "❌";
+}

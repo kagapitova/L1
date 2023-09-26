@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#myForm {
+    border-radius: 16px;
+    font-family: 'Segoe UI', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: stretch;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: none;
+    background-color: #6725A8;
+    color: white;
+}

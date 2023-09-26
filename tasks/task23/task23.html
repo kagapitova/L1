@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <form action="/">
+        <label for="usrname">Имя пользователя</label>
+        <input type="text" id="usrname" name="usrname" required>
+        <label for="password__input">Пароль</label>
+        <input type="password" id="password__input" name="password__input" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Должно содержать по крайней мере одно число, одну заглавную и строчную буквы, а также не менее 8 и более символов" required>
+        <input type="submit" id="submit_btn" value="Отправить">
+    </form>
+</div>
+
+<div id="message">
+    <h3>Идеальный пароль содержит:</h3>
+    <p id="letter" class="invalid">букву в нижнем регистре</p>
+    <p id="capital" class="invalid">заглавную букву</p>
+    <p id="number" class="invalid">число</p>
+    <p id="length" class="invalid">минимум 8 символов</p>
+    <p id="symbol" class="invalid">специальный символ</p>
+    <p id="security" class="invalid">Cлабый пароль</p>
+</div>
+<script src="./task23.js"></script>
+</body>
+</html>

@@ -12,3 +12,5 @@ console.log(changingEndings(18,['сообщения', 'сообщения', 'с�
 console.log(changingEndings(3,['товар', 'товара', 'товаров']))
 console.log(changingEndings(50,['штука', 'штуки', 'штук']))
 console.log(changingEndings(1345,['пара', 'пары', 'пар']))
+
+module.exports = { changingEndings };

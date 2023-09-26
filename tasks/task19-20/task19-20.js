@@ -1,12 +1,7 @@
 // следуя инструкции https://dev.vk.com/ru/api/access-token/implicit-flow-user#Redirect_uri получила доступ к API
-//9a1c5d389a1c5d389a1c5d38a09909f2d899a1c9a1c5d38ff0d831bdec28b48ad1017f4
-//dlbrJtkdCfxeOFrz68f8
-
-// для получения нового токена
-//https://oauth.vk.com/authorize?client_id=121258913&display=page&redirect_uri=https://github.com/kagapitova&scope=friends&response_type=token&v=5.131&state=123456
 
 const owner_id = "-121258913"; //группа дешевых путешествий
-const access_token = "vk1.a.S6eEKMtQi3xZ2LjwSo53xVYhcwDfTKpef9OcN0GqAnPBJLPNSohkfuab_dbsotDLgEckAxc9Adrm87UU69c6enaBR9KuaFTjgMoWZ2OeMGcu8F_KXvYeatBgCWfut2vaycahDEVQECmZV7XziZv8Ee0YzvRplqKA13OFUF0fvquvHNVEPyeOxLlP9_eljzkZGLEVd5Nuo_F-r7K3xloXjg";
+const access_token = "e361c211e361c211e361c21160e0746df1ee361e361c211866bc782caec91e6722a577a";
 let count = 5; // кол-во постов в одной загрузке
 
 const widgetList = document.querySelector('.widget__list');
